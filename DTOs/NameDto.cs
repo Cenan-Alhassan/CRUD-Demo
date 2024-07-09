@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace API.Entities
+namespace API.DTOs
 {
-    public class Name
+    public class NameDto
     {
-        public int Id { get; set; }
         public required string Person { get; set; }
     }
 }
